@@ -5,7 +5,7 @@ import {Routes,Route,Link} from 'react-router-dom';
 import Results from './components/Results';
 import Search from './components/Search'
 function App() {
-  const UNSPLASHAPI="qxtX9lAh4UpJzXlQ1COi3536v6ok0LA70YU_hTHscsc"
+  const UNSPLASHAPI=""//add the key before runnign the app
  
   const [searchterm,SetSearchTerm]=useState('')
   const [currsearchresults,SetCurrSearchResults]=useState([])
